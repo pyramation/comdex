@@ -118,6 +118,21 @@ import * as _180 from "./slashing/v1beta1/tx.registry";
 import * as _181 from "./staking/v1beta1/tx.registry";
 import * as _182 from "./upgrade/v1beta1/tx.registry";
 import * as _183 from "./vesting/v1beta1/tx.registry";
+import * as _184 from "./auth/v1beta1/query.lcd";
+import * as _185 from "./authz/v1beta1/query.lcd";
+import * as _186 from "./bank/v1beta1/query.lcd";
+import * as _187 from "./distribution/v1beta1/query.lcd";
+import * as _188 from "./evidence/v1beta1/query.lcd";
+import * as _189 from "./feegrant/v1beta1/query.lcd";
+import * as _190 from "./gov/v1/query.lcd";
+import * as _191 from "./gov/v1beta1/query.lcd";
+import * as _192 from "./group/v1/query.lcd";
+import * as _193 from "./mint/v1beta1/query.lcd";
+import * as _194 from "./nft/v1beta1/query.lcd";
+import * as _195 from "./params/v1beta1/query.lcd";
+import * as _196 from "./slashing/v1beta1/query.lcd";
+import * as _197 from "./staking/v1beta1/query.lcd";
+import * as _198 from "./upgrade/v1beta1/query.lcd";
 export namespace cosmos {
   export namespace app {
     export const v1alpha1 = { ..._21,
@@ -128,7 +143,8 @@ export namespace cosmos {
   export namespace auth {
     export const v1beta1 = { ..._24,
       ..._25,
-      ..._26
+      ..._26,
+      ..._184
     };
   }
   export namespace authz {
@@ -138,7 +154,8 @@ export namespace cosmos {
       ..._30,
       ..._31,
       ..._156,
-      ..._170
+      ..._170,
+      ..._185
     };
   }
   export namespace bank {
@@ -148,7 +165,8 @@ export namespace cosmos {
       ..._35,
       ..._36,
       ..._157,
-      ..._171
+      ..._171,
+      ..._186
     };
   }
   export namespace base {
@@ -222,7 +240,8 @@ export namespace cosmos {
       ..._59,
       ..._60,
       ..._159,
-      ..._173
+      ..._173,
+      ..._187
     };
   }
   export namespace evidence {
@@ -231,7 +250,8 @@ export namespace cosmos {
       ..._63,
       ..._64,
       ..._160,
-      ..._174
+      ..._174,
+      ..._188
     };
   }
   export namespace feegrant {
@@ -240,7 +260,8 @@ export namespace cosmos {
       ..._67,
       ..._68,
       ..._161,
-      ..._175
+      ..._175,
+      ..._189
     };
   }
   export namespace genutil {
@@ -253,14 +274,16 @@ export namespace cosmos {
       ..._72,
       ..._73,
       ..._162,
-      ..._176
+      ..._176,
+      ..._190
     };
     export const v1beta1 = { ..._74,
       ..._75,
       ..._76,
       ..._77,
       ..._163,
-      ..._177
+      ..._177,
+      ..._191
     };
   }
   export namespace group {
@@ -270,13 +293,15 @@ export namespace cosmos {
       ..._81,
       ..._82,
       ..._164,
-      ..._178
+      ..._178,
+      ..._192
     };
   }
   export namespace mint {
     export const v1beta1 = { ..._83,
       ..._84,
-      ..._85
+      ..._85,
+      ..._193
     };
   }
   export namespace msg {
@@ -290,7 +315,8 @@ export namespace cosmos {
       ..._90,
       ..._91,
       ..._165,
-      ..._179
+      ..._179,
+      ..._194
     };
   }
   export namespace orm {
@@ -301,7 +327,8 @@ export namespace cosmos {
   }
   export namespace params {
     export const v1beta1 = { ..._94,
-      ..._95
+      ..._95,
+      ..._195
     };
   }
   export namespace slashing {
@@ -310,7 +337,8 @@ export namespace cosmos {
       ..._98,
       ..._99,
       ..._166,
-      ..._180
+      ..._180,
+      ..._196
     };
   }
   export namespace staking {
@@ -320,7 +348,8 @@ export namespace cosmos {
       ..._103,
       ..._104,
       ..._167,
-      ..._181
+      ..._181,
+      ..._197
     };
   }
   export namespace tx {
@@ -337,7 +366,8 @@ export namespace cosmos {
       ..._109,
       ..._110,
       ..._168,
-      ..._182
+      ..._182,
+      ..._198
     };
   }
   export namespace vesting {
